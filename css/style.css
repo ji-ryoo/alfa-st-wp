@@ -1,0 +1,702 @@
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka,"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color:#666666;
+	font-size: 17px;
+     -webkit-text-size-adjust: 100%;
+
+}
+
+
+.cle{
+	clear: both;
+}
+
+a{/*リンクされた文字*/
+    color:#3ea9f4;
+    font-style:normal;
+    text-decoration:none;
+}
+a:link {/*未訪問のリンク*/
+    color:#3ea9f4;
+    font-style:normal;
+    text-decoration:none;
+}
+a:visited {/*訪問後のリンク*/
+    color:#3ea9f4;
+    text-decoration:none;
+}
+a:hover {/*マウスをのせたとき*/
+    color:#7fb105;
+    font-style:normal;
+    text-decoration:none;
+}
+a:active {/*クリック中*/
+    text-decoration:none;
+}
+
+#wrapper {/* 全体包括 */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+header{/*ヘッダー*/
+	background-color: #fff;
+}
+
+#logoArea{/*ヘッダー左側*/
+	float: left;
+	width:500px;
+}
+#telArea{/*ヘッダー右側*/
+float: right;
+width: 500px;
+}
+
+#okigaru{/*	お気軽にお問い合わせください*/
+	margin:48px 0 0 220px;
+	font-size: 15px;
+}
+
+
+
+#telIcon{/*電話アイコン*/
+margin:1px 0 0 160px;
+float: left;
+}
+
+#telnum{/*電話番号*/
+font-size: 28px;
+margin:8px 50px 0 0;
+float: right;
+}
+
+ #telnum a {
+        color:#000;
+        font-weight: bold;
+        text-decoration:none;
+    }
+    #telnum a:hover {
+        color:#666;
+        text-decoration:none;
+    }
+
+#uketuke{/*受付９：００〜２１：００*/
+margin:10px 0 0 250px;
+font-size:12px;
+}
+
+#logo{/*ヘッダーメインロゴ*/
+	margin:6px 0 0 20px;
+}
+
+#arayuru{/*一日であらゆる〜*/
+	margin:15px 0 0 30px;
+	font-size: 13px;
+	color: #ff7709;
+}
+
+#jikan {/*電話番号*/
+	margin:10px 0 0 100px;
+	font-size: 15px;
+}
+
+#nihonkaoku{
+	margin:7px 0 0 60px;
+	font-size: 14px;
+}
+
+
+/* グローバルナビゲーションメニュCSS  */
+ #nav, #nav * {
+        margin:0; padding:0;
+        font-size: 12px;
+    }
+    #nav {
+    	margin-top: 20px;
+        background-color:#eff3f7;
+    }
+    #nav table {
+        background-color:#eff3f7;
+        border-spacing:1px;
+
+
+    }
+    #nav tr.center {
+        text-align:center;
+    }
+    #nav td {
+        width:200px;
+         border:1px solid #eeeeee;
+    }
+    #nav a {
+        padding:10px;
+        display:block;
+        background-color:#ffffff;
+        color:#666666;
+        text-decoration:none;
+    }
+    #nav a:hover {
+        padding:10px;
+        background-color:#00bdb2;
+        color:#fff;
+        text-decoration:none;
+    }
+
+    .clearboth{
+    	clear: both;
+    }
+/* グローバルナビゲーションメニュCSS  */
+
+/* スライドショーCSS    */
+ .bxslider {
+    padding:0;
+    margin:0;
+    height:200px;
+}
+.bxslider li {
+    width:100%;
+}
+.bx-wrapper .bx-viewport {
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+border:none;
+background-color:transparent;
+}
+/* スライドショーCSS    */
+
+#imageArea{/* スライドショーボックスと右画像３つ包括   */
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+#slideShowBox{/* スライドショーボックス   */
+	width: 700px;
+	float: left;
+}
+
+.threIm{/* スライドショー隣の画像３つ*/
+	margin-bottom: 7px;
+	margin-left: 10px;
+}
+
+#slideBottom{/*サイト中央　左、右を包括    */
+margin-top:10px;
+}
+
+#leftBox{/* サイト中央左ボックス*/
+    float: left;
+    padding:20px 20px 30px 20px;
+}
+#rightBox{/* サイト中央左ボックス*/
+    width:700px;
+     float: right;
+}
+
+.menuBox{/* 左画像メニュー画像 */
+ width:250px;
+ height:200px;
+ border: solid 1px #ccc;
+}
+
+.lefBox{/* 左画像メニュー */
+    margin-bottom:20px;
+       transition-duration:0.3s;
+transition-timing-function:ease-in-out;
+}
+
+.lefBox:hover{
+    transition-duration:0.3s;
+transition-timing-function:ease-in-out;
+        -webkit-transform: scale(1.1);
+           -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+             -o-transform: scale(1.1);
+                transform: scale(1.1);
+}
+
+#setumei{/* 箇条書き */
+margin-left: 50px;
+margin-top:20px;
+background-color:#FFFFFF;/* アンドロイドバグ回避 */
+}
+
+#setumei > li{/* 箇条書き */
+    line-height: 150%;
+    font-size: 14px;
+    padding:15px 10px 15px 0px;
+}
+
+#newslist{/* 箇条書き */
+margin-left: 50px;
+margin-top:20px;
+    margin-bottom:20px;
+    width: 600px;
+background-color:#FFFFFF;/* アンドロイドバグ回避 */
+ height: 200px;
+ overflow: scroll;
+}
+
+#newslist > li{/* 箇条書き */
+    line-height: 150%;
+    font-size: 14px;
+    padding:15px 10px 15px 0px;
+    list-style-type: none;
+    border-bottom:1px solid #ccc;
+}
+
+.newstime{
+font-size:10px!important;
+color: #999;
+}
+
+#alpastudioh2{/*アルファスタジオについて*/
+    border-top: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding:15px;
+    color: #000;
+    font-family:"Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3",serif;
+    font-weight: bold;
+}
+
+#itiniti{ /* 一日であらゆ〜  */
+margin-left: 30px;
+margin-top:15px;
+font-size: 17px;
+font-weight: bold;
+color:#ff7709;
+}
+
+#zehi{/*ぜひご要望以上の*/
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color:#000;
+    position: relative;
+
+
+}
+
+#minasama:before {
+  content: "";
+  position: absolute;
+  background: #999;
+  top: -3px;
+  left: 325px;
+  height: 12px;
+  width: 12px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#minasama:after {
+  content: "";
+  position: absolute;
+  background:#777;
+  top: 10px;
+  left: 340px;
+  height: 8px;
+  width: 8px;
+  -moz-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+#minasama{/*ぜ皆様のご利用*/
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+       font-size: 15px;
+}
+
+#footImgs{/*サイト下画像５つのボックス*/
+    margin-top: 50px;
+    /* box-shadow */
+    text-align: center;
+box-shadow:rgb(71, 71, 71) 0px 26px 28px -23px;
+-webkit-box-shadow:rgb(71, 71, 71) 0px 26px 28px -23px;
+-moz-box-shadow:rgb(71, 71, 71) 0px 26px 28px -23px;
+}
+
+footer{
+    margin: 0 auto;
+margin-top: 60px;
+   padding:90px;
+   border-top: 1px solid #eeeeee;
+   width: 900px;
+   height: 100px;
+}
+
+footer >p{
+    text-align: right;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+#jyusyo{
+    float: left;
+    font-size: 13px;
+    padding:90px 50px 10px 10px;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.h2Box{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka,"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: normal ;
+    font-size:28px;
+    color:#6c6c6c;
+    display: block;
+    padding: 40px 0px 40px 50px;
+    border-bottom:solid 1px #eeeeee;
+}
+.h3Box{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka,"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+     color:#6c6c6c;
+    display: block;
+    padding:10px 0px 10px 40px;
+    background-color: #f7f3f3;
+     border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;
+    margin-top: 20px;
+}
+.priceTable{
+    text-align: left;
+    border-collapse: collapse;
+}
+tr{
+border:solid 1px #eeeeee;
+}
+th{
+    padding: 20px;
+    border:solid 1px #00a2ff;
+    background-color: #01b0ff;
+    color:#fff;
+}
+td{
+    padding:20px;
+    border:solid 1px #eeeeee;
+}
+
+#po1{
+    float: right;
+    margin:50px 40px 0 0;
+    width:550px;
+}
+
+.list1> li{
+    line-height: 140%;
+    font-size: 17px;
+    padding:10px 10px 10px 0px;
+}
+
+#oshiharai{
+margin:20px 0px 50px 410px;
+font-size: 20px;
+font-weight: bold;
+color:#ff7709;
+line-height: 120%;
+}
+.f3{
+    font-size:14px;
+    color: #666666;
+    font-weight: normal;
+}
+.lo1{
+    margin:20px 0 50px 100px;
+    line-height: 120%;
+}
+
+.polist1{
+    margin:30px 0 0 70px;
+}
+
+.orange{
+    font-size: 20px;
+font-weight: bold;
+color:#ff7709;
+}
+
+.poorange{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footel{
+    font-size: 15px;
+    color: #000;
+    float: right;
+    margin:50px 70px 0 0;
+    line-height: 150%;
+}
+
+.h2sita{
+    margin:5px 0 0 10px;
+    color: #ababab;
+    font-size: 16px;
+}
+.migi{
+    width: 220px;
+height:900px;
+    background-color: #f7f7f7;
+    float: left;
+    border-left: solid 1px #eeeeee;
+}
+.hidari{
+float: right;
+width: 779px;
+}
+
+.studioPhoH3{
+    margin-top: 20px;
+    padding:20px;
+    border-bottom: solid 1px #eeeeee;
+    border-left:solid 10px #ff7709;
+    line-height: 140%;
+}
+
+.fh4{
+    text-align: center;
+      font-family:"Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3",serif;
+      font-weight: bold;
+      font-size: 19px;
+}
+
+.mt20{
+margin-top: 20px;
+}
+
+.imgTable{
+    margin-top: 20px;
+
+}
+
+.imgTable > tr{
+    padding:3px;
+}
+
+.cap{
+    margin-top: 5px;
+font-size: 12px;
+text-align: center;
+    }
+
+.sideMenu > ul{
+
+}
+
+.liside{
+    width: 160px;
+    padding:20px;
+    border-bottom: solid 1px #eeeeee;
+    color:#666666;
+    text-decoration: none;
+}
+
+
+    .liside:hover {
+        background-color:#00bdb2;
+        color:#fff;
+        text-decoration:none;
+    }
+
+.fixed {
+  position: fixed;
+  top:0px;
+}
+
+@media screen and (max-device-width: 480px) {
+.attention{
+    position: fixed;
+    top:0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size:30px;
+    padding:10px 40px 10px 40px;
+    background-color: #79c33e;
+    box-shadow:rgba(163, 163, 163, 0.380392) 0px 15px 10px -8px;
+-webkit-box-shadow:rgba(163, 163, 163, 0.380392) 0px 15px 10px -8px;
+-moz-box-shadow:rgba(163, 163, 163, 0.380392) 0px 15px 10px -8px;
+}
+}
+
+.attention{
+    position: fixed;
+    top:0px;
+    color: #ffffff;
+    font-weight: bold;
+    padding:20px 40px 20px 40px;
+    background-color: #79c33e;
+    box-shadow:rgba(163, 163, 163, 0.380392) 0px 15px 10px -8px;
+-webkit-box-shadow:rgba(163, 163, 163, 0.380392) 0px 15px 10px -8px;
+-moz-box-shadow:rgba(163, 163, 163, 0.380392) 0px 15px 10px -8px;
+}
+
+div.tothetopfixed {
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    z-index: 1500;
+}
+
+div.tothetopfixed a {
+    display: block;
+     background-color: #01b0ff;
+    color:#fff;
+    padding: 15px;
+    margin: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:13px;
+}
+
+div.tothetopfixed a:hover {
+    background: #0044CC;
+    color: #ffffff;
+}
+
+@media screen and (max-device-width: 480px) {
+div.tothetopfixed {
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    z-index: 1500;
+}
+
+div.tothetopfixed a {
+    display: block;
+     background-color: #01b0ff;
+    color:#fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:18px;
+}
+}
+
+.box4{
+    padding:50px;
+    line-height: 120%;
+
+}
+
+.ch1{
+   border-bottom: solid 1px #eeeeee;
+    border-left:solid 10px #79c33e!important;
+}
+
+.f20px{
+    font-size: 20px;
+    border-bottom:dotted 2px #eeeeee;
+    margin-bottom: 10px;
+
+}
+
+.pd10{
+ padding-bottom:10px;
+}
+
+.h4box{
+    margin:30px 0 10px 30px;
+    padding:20px;
+    border-left:solid 3px #79c33e;
+    border-bottom:dotted 1px #eeeeee;
+}
+
+.lh120{
+    line-height: 140%;
+}
+
+#mymap{
+    margin-top: 90px;
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    padding:30px;
+    border:1px solid #eeeeee;
+}
+.gasok{
+    text-align: right;
+    font-size:12px;
+    margin-right: 20px;
+}
+
+.brtext{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.zeibetu{
+    margin-top: 10px;
+    margin-left: 220px;
+    font-size: 13px;
+    color: #8f8f90;
+}
+
+.link{
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding:40px;
+}
+#spLinkBlockInPc{
+margin: 0 auto;
+display:none;
+width: 1000px;
+padding:30px;
+    font-size:30px;
+    background-color: #15ad01;
+        color:#fff;
+    text-align: center;
+}
+#spLinkBlockInPc a{
+color: #fff!important;
+}
+
+.new-red{
+	color: red;
+}
+
+.taisaku{
+	font-size: 20px;
+	color: blue;
+	border: 2px solid blue;
+	border-radius: 10px;
+	padding:20px 0 20px 0;
+	text-align: center;
+	width: 400px;
+}
+
+.taisaku:hover{
+	background-color: #daf0ff;
+}
+
+.torikumi{
+	padding:30px;
+	line-height:130%;
+}
+
+.torikumi p{
+	margin-bottom:10px;
+}
+.torikumi ul{
+	padding:20px;
+}
+
+.torikumi li{
+	margin-bottom: 10px;
+}
